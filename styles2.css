@@ -1,0 +1,56 @@
+
+
+
+#canvas-container {
+  background-image: url(img/juegosdecell.jpg);
+  width: 1200px; /* Tamaño específico del contenedor */
+  height: 675px; /* Tamaño específico del contenedor */
+  position: relative;
+}
+
+#gokusale {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+canvas {
+    width: 100%;
+    height: auto;
+  }
+
+.imagen-boton {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    top: 100px; /* Ajusta la posición vertical (eje Y) según tus necesidades */
+    left: 800px; /* Ajusta la posición vertical (eje Y) según tus necesidades */
+}
+  
+.imagen-boton img {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+}
+
+.pidetipataq {
+  font-family: "Saiyan-Sans Right Oblique.ttf", sans-serif;;
+
+}
+
+@media (max-width: 768px) {
+    /* Estilos específicos para pantallas con un ancho máximo de 768px */
+    body {
+      background-size: contain;
+    }
+  }
+
+
+  @font-face {
+    font-family: "Saiyan-Sans Right Oblique.ttf";
+    src: url(fonts/Saiyan-Sans\ Right\ Oblique.ttf) format("truetype");
+  }
+
